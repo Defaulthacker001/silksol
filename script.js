@@ -3,5 +3,5 @@ let searchBtn = document.querySelector('.searchBtn');
 
 searchBtn.onclick = function(){
     let url = 'https://ahmia.fi/search/?q='+query.value;
-    window.open(url);
+    window.open(url,'_self');
 }
